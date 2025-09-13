@@ -1,0 +1,13 @@
+name: sinItem
+main: com.sinItem.SinItemPlugin
+version: 1.0.0
+api-version: 1.21
+author: Sinsamuth
+
+commands:
+  sinitem:
+    description: SinItem main command
+    usage: /sinitem <subcommand>
+    aliases: [sitem,si]
+    permission: sinitem.use
+    permission-message: "&cYou don't have permission!"

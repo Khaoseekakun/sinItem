@@ -1,0 +1,23 @@
+prefix: "&7[&bSinItem&7] "
+
+no-permission: "&cคุณไม่มีสิทธิ์ใช้งานคำสั่งนี้!"
+player-only: "&cคำสั่งนี้ใช้ได้เฉพาะผู้เล่น!"
+player-not-found: "&cไม่พบผู้เล่น!"
+world-not-found: "&cไม่พบโลกที่ระบุ!"
+unknown-subcommand: "&cคำสั่งย่อยไม่ถูกต้อง!"
+
+reloaded: "&aรีโหลด config และ messages เรียบร้อยแล้ว!"
+item-not-found: "&cไม่พบไอเท็ม &e%item%"
+item-saved: "&aเซฟไอเท็ม &e%item% &aไปที่ &e%file%"
+got-item: "&aคุณได้รับไอเท็ม &e%item% &aจำนวน &e%amount%x"
+gave-item: "&aให้ &e%player% &aจำนวน &e%amount%x %item%"
+dropped-item: "&aดรอปไอเท็ม &e%item% &aจำนวน &e%amount%x"
+deleted-item: "&aลบไอเท็ม &e%item% &aออกจากระบบแล้ว!"
+
+usage-main: "&cUsage: /sinitem < get | give | drop | save | delete | reload >"
+usage-get: "&cUsage: /sinitem get <item> <amount>"
+usage-give: "&cUsage: /sinitem give <player> <item> <amount>"
+usage-drop-p: "&cUsage: /sinitem drop -p <player> <item> <amount>"
+usage-drop-w: "&cUsage: /sinitem drop -w <world> <x> <y> <z> <item> <amount>"
+usage-save: "&cUsage: /sinitem save <fileName> <itemName>"
+usage-delete: "&cUsage: /sinitem delete <itemName>"
